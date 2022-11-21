@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    #app{
+        width: 100%;
+        min-width: 100%;
+margin: 0;
+padding: 0;
+    }
+   #app p{
+        width: 95%;
+        padding: 14px 20px;
+        background-color: rgb(76, 87, 240);
+        border-radius: 15px;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        font-family: system-ui;
+        font-weight: 800;
+        margin: 15px auto;
+
+    }
+    #app textarea{
+        min-width: 95%;
+        max-width: 95%;
+        margin: 0 20px;
+max-height: 250px;
+        border: 2px solid #555;
+        outline: none;
+border-radius: 18px;
+min-height: 140px;
+padding: 10px;
+margin: 20px;
+}
+.container-select{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#app select{
+    width: 20%;
+    padding: 14px;
+    border-radius: 15px;
+text-align: center;
+margin: 15px auto;
+background-color: rgb(255, 255, 255);
+font-size:0.9em;
+font-family: system-ui;
+font-weight: 700;
+}
+
+@media (max-width:600px){
+    #app select{
+        width: 60%;
+    }
+}
+
+</style>
+<body>
+    <nav class="navbar navbar-light" id="nav">
+        <a target="_blank" href="https://youtube.com/JamalGoving" id="a" class="navbar-brand">Jamal Goving</a>
+        <a class="navbar-brand" href="#">
+            <img src="logo.png" style="object-fit: contain;" width="60" height="60" class="d-inline-block align-top" alt="" loading="lazy">
+            
+          </a>
+    
+      </nav>
+      <div class="night">
+        <img id="img-1" src="night.png" alt="">
+        <img src="moon.png" id="img-2" alt="">
+        </div> 
+   
+<main id="app">
+    <p id="p2">Text -  النص</p>
+    <div class="container-select">
+    <select id="select">
+        <option value="encode">تشفير النص</option>
+        <option value="decode">فك تشفير النص</option>
+    </select>
+</div>
+    <textarea  id="text"></textarea>
+<p id="p1"> Result -نتيجة</p>
+<textarea  id="result" ></textarea>
+</main>
+<div class="card" id="card">
+    <div id="coll" style="text-align: center;" class="card-header">
+      حولنا
+    </div>
+    <div id="cardd" class="card-body" >
+      <blockquote class="blockquote mb-0">
+        <p id="col" style="text-align: center;">موقع لفك تشفير  النص المشفر بنظام
+             القاعدة 64  , او تشفيرها بنظام القاعدة 64</p>
+
+    </blockquote>
+    </div>
+  </div>
+<script src="main.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+</body>
+</html>
