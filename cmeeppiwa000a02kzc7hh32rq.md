@@ -5,11 +5,10 @@ seoDescription: "Is Learning Web Development Worth It in 2025 with the Rise of A
 datePublished: Sat Aug 16 2025 20:31:10 GMT+0000 (Coordinated Universal Time)
 cuid: cmeeppiwa000a02kzc7hh32rq
 slug: is-learning-web-development-worth-it-in-2025-with-the-rise-of-ai
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1755376365609/c3dfb693-32a4-454d-8333-5996005d988b.jpeg
 tags: ai, artificial-intelligence, programming-blogs, web-development, machine-learning
 
 ---
-
-![](https://miro.medium.com/v2/resize:fit:828/format:webp/1*4OafaWbrizNz5HRwdxzmMQ.png align="center")
 
 Hi everyone 👋
 
